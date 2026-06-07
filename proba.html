@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanszer Világ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2196F3;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #1976D2;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .products {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #2196F3;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1565C0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tanszer Világ</h1>
+    <p>Minden, amire az iskolában szükséged lehet!</p>
+</header>
+
+<nav>
+    <a href="#">Főoldal</a>
+    <a href="#">Termékek</a>
+    <a href="#">Kapcsolat</a>
+</nav>
+
+<div class="container">
+    <h2>Népszerű tanszerek</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500" alt="Füzet">
+            <h3>Spirálfüzet</h3>
+            <p>80 lapos, vonalas füzet.</p>
+            <button>Részletek</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=500" alt="Ceruza">
+            <h3>Grafitceruza</h3>
+            <p>HB keménységű iskolai ceruza.</p>
+            <button>Részletek</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?w=500" alt="Tolltartó">
+            <h3>Tolltartó</h3>
+            <p>Több rekeszes, praktikus tolltartó.</p>
+            <button>Részletek</button>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Tanszer Világ | Projektmunka</p>
+</footer>
+
+</body>
+</html>
