@@ -32,28 +32,64 @@
 
     <!-- Navigáció -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="#">Tanszer Webáruház</a>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Tanszer Webáruház</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Főoldal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#termekek">Termékek</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#kapcsolat">Kapcsolat</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">
+                        Főoldal
+                    </a>
+                </li>
+
+                <!-- KATEGÓRIÁK LENYÍLÓ MENÜ -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       role="button"
+                       data-bs-toggle="dropdown">
+                        Kategóriák
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="fuzet.html">
+                                📒 Füzetek
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="iroeszkozok.html">
+                                ✏️ Íróeszközök
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="iskolai_felszerelesek.html">
+                                🎒 Iskolai felszerelések
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#kapcsolat">
+                        Kapcsolat
+                    </a>
+                </li>
+
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- Fejléc -->
     <header class="text-center">
@@ -74,16 +110,16 @@
 
         <div class="row g-4">
 
-            <!-- Iskolai felszerelések -->
+            <!-- Iskolai Kiegészítők -->
             <div class="col-md-4">
                 <div class="card h-100 shadow">
                     <img src="kepek/cucc.jpg"
-                        class="card-img-top" alt="Iskolai felszerelések">
+                        class="card-img-top" alt="Iskolai kiegészítők">
 
                     <div class="card-body">
-                        <h5 class="card-title">Iskolai felszerelések</h5>
+                        <h5 class="card-title">Iskolai kiegészítők</h5>
                         <p class="card-text">Táskák, kulacsok, tornazsákok és egyéb felszerelések.</p>
-                        <a href="iskolai_felszerelesek.html" class="btn btn-primary">Megnézem</a>
+                        <a href="iskolai_felszerelesek.html" class="btn btn-primary">Megnyitás</a>
                     </div>
                 </div>
             </div>
@@ -114,35 +150,18 @@
                 </div>
             </div>
 
-            <!-- Vonalzó -->
+            <!-- Rajzeszközök -->
             <div class="col-md-4">
                 <div class="card h-100 shadow">
-                    <img src="https://images.unsplash.com/photo-1588072432904-843af37f03ed"
-                         class="card-img-top" alt="Vonalzó">
+                    <img src="kepek/rajzeszkoz.jpg"
+                         class="card-img-top" alt="Rajzeszközök">
                     <div class="card-body">
-                        <h5 class="card-title">30 cm-es vonalzó</h5>
-                        <p class="card-text">Tartós műanyag vonalzó pontos mérésekhez.</p>
-                        <p class="fw-bold text-primary">490 Ft</p>
-                        <button class="btn btn-primary">Kosárba</button>
+                        <h5 class="card-title">Rajzeszközök</h5>
+                        <button class="btn btn-primary">Megnyitás</button>
                     </div>
                 </div>
             </div>
 
-            <!-- Iskolatáska -->
-            <div class="col-md-4">
-                <div class="card h-100 shadow">
-                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
-                         class="card-img-top" alt="Iskolatáska">
-                    <div class="card-body">
-                        <h5 class="card-title">Iskolatáska</h5>
-                        <p class="card-text">Strapabíró és kényelmes hátizsák diákoknak.</p>
-                        <p class="fw-bold text-primary">12990 Ft</p>
-                        <button class="btn btn-primary">Kosárba</button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </section>
 
     <!-- Kapcsolat -->
